@@ -1,0 +1,26 @@
+h1 {
+ font: 36px  "Century Gothic", sans-serif;
+}
+form {
+ padding: 0 0 15px 0;
+}
+#toClearListWrapper, #clearedListWrapper {
+  padding: 0 15px 15px 15px;
+}
+ul {
+ font: 15px "Century Gothic", sans-serif;
+ list-style-type: none;
+ border: 1px solid grey;
+ border-radius: 5px;
+ padding: 5px 10px;
+ margin: 0;
+}
+li {
+ font-weight: bold;
+}
+li::before {
+ content: "- ";
+}
+span {
+ color: orange;
+}
